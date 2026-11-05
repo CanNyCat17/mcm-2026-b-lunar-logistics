@@ -1,0 +1,90 @@
+========================================================================
+MCM 2026 Problem B: Moon Colony Transportation Analysis
+Sub-question 1: Three Transportation Scenarios
+========================================================================
+
+MISSION PARAMETERS:
+  Total Material Required: 1.00e+08 MT
+  Colony Population: 100000 people
+  Mission Start Year: 2050
+
+========================================================================
+SCENARIO A: SPACE ELEVATOR ONLY
+========================================================================
+Timeline:
+  Years to Complete: 190.02 years
+  Completion Year: 2240
+
+Costs:
+  Total Cost: $9.606e+13 USD
+  Cost per kg: $960.58 USD/kg
+  Annual Cost: $5.055e+11 USD/year
+
+Environmental Impact:
+  CO2 Emissions: 2.500e+08 MT
+  CO2 with Renewables: 2.500e+07 MT (90% renewable assumption)
+  NOx Emissions: 0.000e+00 MT
+
+========================================================================
+SCENARIO B: ROCKETS ONLY
+========================================================================
+Timeline:
+  Years to Complete: 398.40 years
+  Completion Year: 2448
+
+Costs:
+  Total Cost: $1.400e+14 USD
+  Cost without Carbon Tax: $1.400e+14 USD
+  Carbon Tax: $2.800e+10 USD
+  Cost per kg: $1400.28 USD/kg
+  Annual Cost: $3.515e+11 USD/year
+
+Operational Details:
+  Number of Launches: 800000
+  Sites Used: 8
+
+Environmental Impact:
+  CO2 Emissions: 2.800e+08 MT
+  NOx Emissions: 1.200e+07 MT
+
+========================================================================
+SCENARIO C: HYBRID OPTIMIZATION
+========================================================================
+Optimization Results:
+  Optimal Elevator Fraction: 74.0%
+  Optimal Rocket Fraction: 26.0%
+  Mass by Elevator: 7.400e+07 MT
+  Mass by Rocket: 2.600e+07 MT
+
+Timeline:
+  Years to Complete: 140.61 years
+  Completion Year: 2191
+
+Costs:
+  Total Cost: $9.285e+13 USD
+  Cost per kg: $928.48 USD/kg
+  Annual Cost: $6.603e+11 USD/year
+
+Operational Details:
+  Number of Rocket Launches: 208000
+
+Environmental Impact:
+  CO2 Emissions: 2.578e+08 MT
+  NOx Emissions: 3.120e+06 MT
+
+========================================================================
+COMPARATIVE ANALYSIS
+========================================================================
+
+Hybrid vs Elevator Only:
+  Cost Savings: 3.34%
+  Time Savings: 26.00%
+
+Hybrid vs Rockets Only:
+  Cost Savings: 33.69%
+  Time Savings: 64.70%
+
+Best Scenario by Metric:
+  Lowest Cost: Space Elevator Only
+  Shortest Timeline: Space Elevator Only
+  Lowest Environmental Impact: Space Elevator Only

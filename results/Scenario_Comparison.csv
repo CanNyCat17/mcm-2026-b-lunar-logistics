@@ -1,0 +1,4 @@
+Scenario,TotalCost_BillionUSD,Timeline_Years,CompletionYear,CostPerKg_USD,CO2_MillionMT,NOx_ThousandMT,CostSavings_vs_B_Percent,TimeSavings_vs_B_Percent,CO2Reduction_vs_B_Percent
+Space Elevator,96058.057,190.02,2240,960.58,250.000,0.000,31.40,52.30,10.71
+Rockets Only,140028.000,398.40,2448,1400.28,280.000,12000.000,0.00,0.00,0.00
+Hybrid Optimization,92847.792,140.61,2191,928.48,257.800,3120.000,33.69,64.70,7.93
